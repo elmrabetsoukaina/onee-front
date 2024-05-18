@@ -85,5 +85,20 @@ include("script.php");
 
 ?>
 </body>
+<script>
+		$("#loginForm").submit((e) => {
+			e.preventDefault()
+			asyncPost("login/login", [
+				{ key: "user", value: $("#username").val() },
+				{ key: "mdp", value: $("#userpassword").val() },
+			], "cconn", true)
+				.then(reponse => {
+					if (reponse.result) {
+						notifyMy(reponse.infos, 'green')
+						connectNow(reponse)
+					}
 
+				})
+		})
+	</script>
 </html>
