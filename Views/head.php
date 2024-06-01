@@ -1,7 +1,7 @@
 <head>
 
 	<!-- META TAG -->
-    <title>ONEE STAF Management</title>
+    <title>ONEE AGENT Management</title>
 	<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="">
@@ -14,6 +14,6 @@
 <meta name="og:image" content="../../xhtml/social-image.png">
 <meta name="format-detection" content="telephone=no">
 	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="assets/images/onee_icon.jpeg">
 	<link href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css"/><link href="assets/css/style.css" rel="stylesheet" type="text/css"/>	
 </head>

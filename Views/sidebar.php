@@ -4,7 +4,7 @@
        <div class="deznav">
            <div class="deznav-scroll">
                <ul class="metismenu" id="menu">
-                   <li class="menu-title">YOUR COMPANY</li>
+                   <li class="menu-title">ONEE-BE</li>
                    <li><a href="home" aria-expanded="false">
                            <div class="menu-icon">
                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@
                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.986 11.0054C13.3126 11.0054 15.1983 9.11881 15.1983 6.79223C15.1983 4.46564 13.3126 2.57993 10.986 2.57993C8.65944 2.57993 6.77285 4.46564 6.77285 6.79223C6.76499 9.11096 8.63849 10.9975 10.9563 11.0054H10.986Z" stroke="#888888" stroke-linecap="round" stroke-linejoin="round" />
                                </svg>
                            </div>
-                           <span class="nav-text">Employees</span>
+                           <span class="nav-text">Agents</span>
                        </a>
                    </li>
                    <li><a href="core-hr.html" class="" aria-expanded="false">
@@ -92,7 +92,7 @@
                                    <path d="M11.2229 10.6388H8.14655" stroke="#888888" stroke-linecap="round" stroke-linejoin="round" />
                                </svg>
                            </div>
-                           <span class="nav-text">Reports</span>
+                           <span class="nav-text">Rapports</span>
                        </a>
                    </li>
                    <li><a href="manage-client.html" class="" aria-expanded="false">
@@ -104,7 +104,7 @@
                                    <path d="M17.0458 13.5045C18.4675 13.7163 19.4603 14.2149 19.4603 15.2416C19.4603 15.9483 18.9928 16.4067 18.2374 16.6936" stroke="#888888" stroke-linecap="round" stroke-linejoin="round" />
                                </svg>
                            </div>
-                           <span class="nav-text">Manage Clients</span>
+                           <span class="nav-text">Manage Utilisateurs</span>
                        </a>
                    </li>
                    <li><a href="blog-1.html" class="" aria-expanded="false">
