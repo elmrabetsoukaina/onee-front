@@ -6,7 +6,7 @@ const notifyMe = (text, color = "red", duration=5000, load = false) => {  // ðŸ”
         newWindow: true,
         avatar: avatar,
         close: true,
-        gravity: "bottom", // `top` or `bottom`
+        gravity: "top", // `top` or `bottom`
         position: "left", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {

@@ -3,8 +3,8 @@
     ***********************************-->
 
 <script>
-    //var globalFormData = [],
-     var   globalAPIURL = 'http://localhost/onee-api/v1/'
+     var globalFormData = []
+     var   globalAPIURL = 'http://localhost/onee-back/onee/'
 
     const _i_cookieDeConnexion = "is_co_DASSI",
         _i_storageMenu = "_menuDASSI",
@@ -17,6 +17,8 @@
  <!--**********************************
         Scripts
     ***********************************-->
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
     <!-- Required vendors -->
 	<script src="assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 	
