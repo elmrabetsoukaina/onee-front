@@ -6,10 +6,8 @@
      var globalFormData = []
      var   globalAPIURL = 'http://localhost/onee-back/onee/'
 
-    const _i_cookieDeConnexion = "is_co_DASSI",
-        _i_storageMenu = "_menuDASSI",
-        _i_cookieUtilisateur = "_cookieUserDASSI",
-        _i_cookieDroits = "_cookieDroitsDASSI",
+    const _i_cookieDeConnexion = "is_connected",
+        _i_cookieUtilisateur = "_cookieUser",
         _i_homePage = "home",
         _i_loginPage = "login"
 </script>
@@ -58,6 +56,7 @@
     <script src="assets/js/deznav-init.js" type="text/javascript"></script>
     <script src="assets/js/demo.js" type="text/javascript"></script>
     <script src="assets/js/styleSwitcher.js" type="text/javascript"></script>
+    <script src="assets/js/toastify.js" type="text/javascript"></script>
 
 
 <?php

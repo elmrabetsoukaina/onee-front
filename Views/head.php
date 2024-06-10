@@ -15,5 +15,7 @@
 <meta name="format-detection" content="telephone=no">
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="assets/images/onee_icon.jpeg">
-	<link href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css"/><link href="assets/css/style.css" rel="stylesheet" type="text/css"/>	
+	<link href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/toastify.css" rel="stylesheet" type="text/css"/>		
 </head>

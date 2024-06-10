@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 <?php
 include("head.php");
 ?>
+<script>
+    verifConnected()
+</script>
 
 <body class="vh-100">
     <div class="authincation h-100">
@@ -63,7 +65,6 @@ include("head.php");
 include("script.php");
 ?>
 </body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script>
     // Show/hide password
     document.querySelector('.show-pass').addEventListener('click', function () {
