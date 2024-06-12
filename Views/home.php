@@ -6,6 +6,10 @@ include("head.php");
 
 ?>
 
+<script>
+    verifConnected(true)
+</script>
+
 <body>
 
     <!--*******************

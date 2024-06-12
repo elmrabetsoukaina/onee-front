@@ -3,6 +3,9 @@
 <?php
 include("head.php");
 ?>
+<script>
+    verifConnected()
+</script>
 
 <body class="vh-100">
     <div class="authincation h-100">
@@ -15,14 +18,14 @@ include("head.php");
                             <img src="assets/images/logo_onee.jpg" alt="Logo ONEE" class="img-fluid mb-3">
                             <h3 class="title">Authentifiez-vous</h3>
                         </div>
-                        <form action="https://w3crm.dexignzone.com/php/demo/index.php">
+                        <form id="loginForm">
                             <div class="mb-4">
                                 <label class="mb-1 text-dark">Email</label>
-                                <input type="email" class="form-control form-control" value="exemple@onee.com">
+                                <input type="text" class="form-control form-control" id="username" placeholder="exemple@onee.com">
                             </div>
                             <div class="mb-4 position-relative">
                                 <label class="mb-1 text-dark">Password</label>
-                                <input type="password" id="dz-password" class="form-control" value="123456">
+                                <input type="password" id="userpassword" class="form-control" placeholder="123456">
                                 <span class="show-pass eye">
                                     <i class="fa fa-eye-slash"></i>
                                     <i class="fa fa-eye"></i>
@@ -65,7 +68,7 @@ include("script.php");
 <script>
     // Show/hide password
     document.querySelector('.show-pass').addEventListener('click', function () {
-        const passwordField = document.getElementById('dz-password');
+        const passwordField = document.getElementById('userpassword');
         const passIcon = this.querySelector('i');
         if (passwordField.type === 'password') {
             passwordField.type = 'text';
@@ -80,17 +83,18 @@ include("script.php");
 
     // Handle form submission
     $("#loginForm").submit((e) => {
-        e.preventDefault();
-        asyncPost("login/login", [
-            { key: "user", value: $("#username").val() },
-            { key: "mdp", value: $("#userpassword").val() },
-        ], "cconn", true)
-            .then(response => {
-                if (response.result) {
-                    notifyMy(response.infos, 'green');
-                    connectNow(response);
-                }
-            });
-    });
+			e.preventDefault()
+			postData("login/login", [
+				{ key: "user", value: $("#username").val() },
+				{ key: "mdp", value: $("#userpassword").val() },
+			], "cconn", true)
+				.then(reponse => {
+					if (reponse.result) {
+						notifyMe(reponse.infos, 'green')
+						connectNow(reponse)
+					}
+
+				})
+		})
 </script>
 </html>
